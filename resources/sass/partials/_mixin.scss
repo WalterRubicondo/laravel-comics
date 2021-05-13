@@ -1,0 +1,9 @@
+@mixin container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@mixin button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,18 @@
+@import "_navbar.scss";
+
+header {
+  .top-header {
+    background-color: $colorblue;
+    height: 25px;
+    .container {
+      text-align: end;
+      span {
+        color: white;
+        font-size: 10px;
+        font-weight: 700;
+        margin-left: 50px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

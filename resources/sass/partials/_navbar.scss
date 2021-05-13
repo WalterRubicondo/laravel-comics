@@ -1,0 +1,48 @@
+nav {
+  background-color: $colorwhite;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 100px;
+    img {
+      width: 80px;
+    }
+    ul {
+      display: flex;
+
+      height: 100%;
+      li {
+        display: flex;
+        align-items: center;
+
+        text-transform: uppercase;
+        margin-right: 30px;
+        font-weight: 700;
+        color: $colorgrey;
+        &.active{
+          color: $colorblue;
+          border-bottom: 5px solid;
+        }
+        i {
+          color: $colorblue;
+          margin-left: 5px;
+        }
+      }
+    }
+    .search {
+      border-bottom: 3px solid $colorblue;
+      input {
+        width: 100px;
+        outline: none;
+        &::placeholder {
+          text-align: right;
+          color: $colorgrey;
+          font-weight: 700;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
